@@ -186,35 +186,43 @@ var App = function (_React$Component) {
         "div",
         { id: "content" },
         _react2.default.createElement(
-          "h1",
-          null,
-          "\xA0"
-        ),
-        _react2.default.createElement(
-          "h2",
-          null,
-          "Welcome Marine!"
-        ),
-        _react2.default.createElement(
-          "ul",
-          null,
+          "div",
+          { id: "title" },
           _react2.default.createElement(
-            "li",
+            "h1",
             null,
-            _react2.default.createElement(
-              "a",
-              { href: "http://brunch.io" },
-              "Brunch homepage"
-            )
+            "Countdown"
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { id: "inputs" },
+          _react2.default.createElement("input", { id: "inputHour", type: "number", placeholder: "Hour" }),
+          _react2.default.createElement("input", { id: "inputMinute", type: "number", placeholder: "Minute" }),
+          _react2.default.createElement("input", { id: "inputSecond", type: "number", placeholder: "Second" })
+        ),
+        _react2.default.createElement(
+          "div",
+          { id: "buttons" },
+          _react2.default.createElement(
+            "button",
+            { id: "btnReinitialize" },
+            "Reinitialize"
           ),
           _react2.default.createElement(
-            "li",
-            null,
-            _react2.default.createElement(
-              "a",
-              { href: "https://facebook.github.io/react/" },
-              "React.js homepage"
-            )
+            "button",
+            { id: "btnStart" },
+            "Start"
+          ),
+          _react2.default.createElement(
+            "button",
+            { id: "btnStop" },
+            "Stop"
+          ),
+          _react2.default.createElement(
+            "button",
+            { id: "btnReset" },
+            "Reset"
           )
         )
       );

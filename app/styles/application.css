@@ -3,7 +3,7 @@
   font-family: -apple-system, system, sans-serif;
 }
 
-#content {
+#title {
   width: 480px;
   margin: 0 auto;
 }
@@ -15,3 +15,20 @@ h1 {
   background-position: 2px;
 }
 
+.counter {
+	font-size: 6em;
+}
+
+#inputHour, #inputMinute, #inputSecond, #buttons {
+	padding: 2em;
+}
+
+#title, #inputs, #buttons {
+	text-align: center;
+}
+
+button {
+	padding: 1.5em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
