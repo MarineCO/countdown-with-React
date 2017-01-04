@@ -16,9 +16,9 @@ export default class App extends React.Component {
     	const second = time % 3600 % 60;
     	console.log(second);
 
-  		const timer = time--;
+    	const timer = time--;
 
-  		console.log(timer);
+    	console.log(timer);
 
   	}, 1000);
   }
